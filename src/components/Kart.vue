@@ -7,7 +7,7 @@
                     <tr v-for="produto in produtos" :key="produto.id">
                         <td style="text-align: left;">{{ produto.name }}</td>
                         <td>x{{ produto.amount }}</td>
-                        <td style="color: #24c486;"><strong>${{ produto.price }}</strong></td>
+                        <td style="color: #24c486;"><strong>{{produto.price | dinheiro}}</strong></td>
                     </tr>
                 </tbody>
             </table>
@@ -17,7 +17,7 @@
         </div>
         <div class="kart-total">
             <span class="kart-total-text">Total:</span>
-            <span class="kart-total-value"><strong>${{ total }}</strong></span>
+            <span class="kart-total-value"><strong>{{total | dinheiro}}</strong></span>
         </div>
     </div>
 </template>
@@ -36,7 +36,7 @@ export default {
         },
         total() {
             return this.$store.state.total
-        }
+        },
     }
 }
 </script>

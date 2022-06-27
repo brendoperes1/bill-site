@@ -5,7 +5,7 @@
             <span class="card-title">Spend Bill Gates' Money</span>
         </div>
         <div class="money-bar">
-            <span id="currency">$ {{this.billsMoney}}</span>
+            <Animated :number="(this.billsMoney)"></Animated>
         </div>
         <div class="card-test">
             <Card/>
@@ -15,9 +15,10 @@
 
 <script>
 import Card from "./Card.vue";
+import Animated from "./Animated.vue";
 
 export default {
-    components: { Card },
+    components: { Card, Animated },
     data() {
         return {
             n: 1,
@@ -27,8 +28,9 @@ export default {
         billsMoney() {
             return this.$store.state.billsMoney
         }
-    }
+    },
 }
+
 </script>
 
 <style scoped>

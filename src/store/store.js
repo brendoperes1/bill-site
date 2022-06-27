@@ -29,13 +29,6 @@ export default new Vuex.Store({
         },
     },
     actions: {
-        addProduct(context, payload) {
-            context.commit('subBillsMoney', payload)
-            
-        },
-        removeProduct(context, payload) {
-            context.commit('incBillsMoney', payload)
-        },
         updateMoney(context, payload){
             context.commit('updateMoney', payload)
         },

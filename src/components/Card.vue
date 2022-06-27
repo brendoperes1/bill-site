@@ -8,7 +8,7 @@
                 <span>{{product.name}}</span>
             </div>
             <div class="card-price">
-                <span>$ {{product.price}}</span>
+                <span>{{product.price | dinheiro}}</span>
             </div>
             <div class="card-footer">     
                 <button :class="product.amount > 0 ? 'card-footer-sell-red' : 'card-footer-sell'" @click="sell(product)">Sell</button>
@@ -33,7 +33,7 @@ export default {
         }
     },
     methods: {
-        ...mapActions(['addProduct', 'removeProduct', 'updateMoney']),
+        ...mapActions(['updateMoney']),
         triggerInput(products){
             this.updateMoney(products);    
         },
@@ -48,8 +48,12 @@ export default {
                 product.amount = parseInt(product.amount) - 1
                 this.updateMoney(products);
             }
-        }
-    }
+        },
+        // formatAsCurrency (value, dec) {
+        //     dec = dec || 0
+        //     return '$ ' + value.toFixed(dec).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
+        // }
+    },
     
 }
 </script>
