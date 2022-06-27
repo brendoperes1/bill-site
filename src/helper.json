@@ -1,0 +1,172 @@
+{
+    "items": [
+        {
+            "name":  "Big Mac",
+            "image": "big-mac",
+            "price": 2,
+            "id": 1,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Flip Flops",
+            "image": "flip-flops",
+            "price": 3,
+            "id": 2,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Coca-Cola Pack",
+            "image": "coca-cola-pack",
+            "price": 5,
+            "id": 3,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Movie Ticket",
+            "image": "movie-ticket",
+            "price": 12,
+            "id": 4,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Book",
+            "image": "book",
+            "price": 15,
+            "id": 5,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Lobster Dinner",
+            "image": "lobster-dinner",
+            "price": 45,
+            "id": 6,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Video Game",
+            "image": "video-game",
+            "price": 60,
+            "id": 7,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Amazon Echo",
+            "image": "amazon-echo",
+            "price": 99,
+            "id": 8,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Year of Netflix",
+            "image": "year-of-netflix",
+            "price": 100,
+            "id": 9,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Air Jordans",
+            "image": "air-jordans",
+            "price": 125,
+            "id": 10,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Airpods",
+            "image": "airpods",
+            "price": 199,
+            "id": 11,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Gaming Console",
+            "image": "gaming-console",
+            "price": 299,
+            "id": 12,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Drone",
+            "image": "drone",
+            "price": 350,
+            "id": 13,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Smartphone",
+            "image": "smartphone",
+            "price": 699,
+            "id": 14,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Bike",
+            "image": "bike",
+            "price": 800,
+            "id": 15,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Kitten",
+            "image": "kitten",
+            "price": 1500,
+            "id": 16,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Puppy",
+            "image": "puppy",
+            "price": 1500,
+            "id": 17,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Auto Rickshaw",
+            "image": "auto-rickshaw",
+            "price": 2300,
+            "id": 18,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Horse",
+            "image": "horse",
+            "price": 2500,
+            "id": 19,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Acre of Farmland",
+            "image": "acre-of-farmland",
+            "price": 3000,
+            "id": 20,
+            "amount": 0,
+            "lastAmount": null
+        },
+        {
+            "name":  "Designer Handbag",
+            "image": "designer-handbag",
+            "price": 5500,
+            "id": 21,
+            "amount": 0,
+            "lastAmount": null
+        }
+    ]
+}
