@@ -67,8 +67,4 @@ img{
     position: sticky;
     z-index: 9999;
 }
-.card-test{
-    
-}
-
 </style>
